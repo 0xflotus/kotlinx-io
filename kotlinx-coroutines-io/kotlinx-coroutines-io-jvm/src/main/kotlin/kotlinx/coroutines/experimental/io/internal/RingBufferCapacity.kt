@@ -2,6 +2,7 @@ package kotlinx.coroutines.experimental.io.internal
 
 import kotlin.jvm.*
 
+@Suppress("LocalVariableName")
 internal class RingBufferCapacity(private val totalCapacity: Int) {
     @Volatile
     @JvmField
